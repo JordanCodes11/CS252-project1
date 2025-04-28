@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestMedian",
+            "request": "launch",
+            "mainClass": "cs252.TestMedian",
+            "projectName": "idesAsst",
+            "args": "5"
+        }
+    ]
+}
